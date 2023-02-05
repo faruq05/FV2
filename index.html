@@ -1,27 +1,146 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>FV2</title>
+</head>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+<body>
+  <!-- header starts -->
+  <div class="header" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="popnavbar">
+            <ul>
+              <li>
+                <a href="#">REEL</a>
+              </li>
+              <li>
+                |
+              </li>
+              <li>
+                <a href="#">ABOUT</a>
+              </li>
+              <li>
+                |
+              </li>
+              <li>
+                <a href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- heder ends -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- hero starts -->
+  <div class="hero c-60" id="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="hero_content">
+            <h1>Final Version 2</h1>
+            <h2>motion graphics and post-production</h2>
+          </div>
+          <div class="gif_image">
+            <img src="images/preview.jpg" class="img-fluid" alt="gif">
+          </div>
+        </div>
+      </div>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
-  </body>
+      <div class="about" id="about">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="about_title">Is it really final?</h2>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-md-5">
+            <div class="about_content">
+              <p>Final Version 2 is formed by a group of talented and experienced post-production artists, who are
+                determined to change the way people thought about post. We wanted to create a company that was not just
+                focused on fixing mistakes, but on elevating the quality of the final product to new heights.</p>
+              <br>
+              <p>
+                The team is made up of a diverse group of individuals, each with their own unique skills and
+                specialties.
+                They work together seamlessly, using their collective expertise to bring out the best in every project
+                they take on. They’re quickly gaining a reputation for their attention to detail and their ability to
+                turn
+                mediocre footage into something truly special.</p>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="about_player">
+              <video width="100%" height="auto" controls poster="images/video_preview.jpg">
+                <source src="#" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- heroe ends -->
+
+  <!-- team starts -->
+  <div class="team c-60">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>THE TEAM</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- team ends -->
+
+  <!-- contact starts -->
+  <div class="contact c-60" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>reach out</h2>
+          <form action="">
+            <div class="info">
+              <div class="nameinfo">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="form-control">
+              </div>
+              <div class="nameinfo">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="form-control">
+              </div>
+            </div>
+            <label for="subject">Subject</label>
+            <input type="text" name="subject" id="subject" class="form-control">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

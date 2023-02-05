@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cs-primary: #fff;
+}
+
+
+.c-60 {
+    padding: 60px 0px;
+}
+
+h2{
+    font-size: 40px;
+    color: var(--cs-primary);
+    padding: 10px 0px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* header starts */
+.header {
+    /* background: url(../images/header_overlay.png);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh; */
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 100%);
+    padding: 30px 0px;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+
+.popnavbar {
+    width: 20%;
+    margin: auto;
+}
+
+.popnavbar ul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.popnavbar ul li {
+    list-style: none;
+}
+
+.popnavbar ul li a {
+    color: var(--cs-primary);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* header end  */
+
+/* hero starts */
+.hero {
+    background: url(../images/theaterbg.png);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+    z-index: 10;
+}
+
+.hero_content {
+    text-align: center;
+    padding: 20px 0px;
+
+}
+
+.hero_content h1 {
+    font-size: 70px;
+    color: var(--cs-primary);
+    font-weight: 700;
+}
+
+.hero_content h2 {
+    font-size: 20px;
+    color: #f2cdac;
+    padding: 10px 0px;
+}
+
+.gif_image {}
+
+
+.about {
+
+    padding-top: 30%;
+}
+
+.about_content {
+    padding-right: 40px;
+}
+
+.about_content p {
+    font-size: 18px;
+    color: var(--cs-primary);
+}
+
+/* contact starts */
+.contact{
+    background-color: #000;
+}
+
+.contact form{}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nameinfo{
+    width: 49%;
+}
+
+.contact form label{
+    color: var(--cs-primary);
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+.contact form input{
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+.contact form textarea{
+    border-radius: 0;
+}
+
+.contact form input[type="submit"]{
+    padding: 0;
+    padding: 15px 50px;
+    margin: 20px 0px;
+    font-size: 18px;
+    font-weight: 700;
+}

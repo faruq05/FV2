@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Arial Regular';
 }
 
 h1,
@@ -38,11 +39,6 @@ h2 {
 
 /* header starts */
 .header {
-    /* background: url(../images/header_overlay.png);
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 50vh; */
     background: rgb(0, 0, 0);
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 100%);
     padding: 30px 0px;
@@ -79,7 +75,7 @@ h2 {
     left: 50%;
     transform: translateX(-50%);
     display: none;
-    
+    box-shadow: 0px 0px 14px 8px #0000005e;
     height: auto;
 }
 
@@ -253,4 +249,8 @@ h2 {
     font-size: 18px;
     font-weight: 700;
     border: none;
+}
+
+.submit_button{
+    text-align: right;
 }

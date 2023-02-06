@@ -98,7 +98,7 @@ h2 {
 }
 
 .gif_image{
-    background: url(../images/header_overlay.png);
+    background: url(../images/header_overlay.png), url(../images/mainPageforWebsite1080.gif);
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;

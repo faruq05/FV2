@@ -73,6 +73,20 @@ h2 {
     font-size: 16px;
 }
 
+.shadowbox{
+    position: absolute;
+    padding-top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    
+    height: auto;
+}
+
+.reel:hover + .shadowbox{
+    display: block;
+}
+
 /* header end  */
 
 /* hero starts */
@@ -85,6 +99,13 @@ h2 {
     position: relative;
     z-index: 10;
 
+}
+
+.gif_image{
+    background: url(../images/preview.jpg);
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .hero_content {
@@ -106,11 +127,8 @@ h2 {
 }
 
 .hero_text {
-    padding-bottom: 28%;
+    padding-bottom: 80%;
 }
-
-.gif_image {}
-
 
 .about {
     padding-top: 30px;
@@ -136,9 +154,9 @@ h2 {
     background-size: contain;
 }
 
-.team h2{
-    
-margin-top: 88px;
+.team h2 {
+
+    margin-top: 88px;
 }
 
 .tmember {
@@ -167,16 +185,16 @@ margin-top: 88px;
     box-shadow: 0 0 9px 0px #b8883fa3;
 }
 
-.tmember_des{
+.tmember_des {
     text-align: center;
     padding: 10px;
 }
 
-.tdesright{
+.tdesright {
     text-align: right;
 }
 
-.tdesleft{
+.tdesleft {
     text-align: left;
 }
 

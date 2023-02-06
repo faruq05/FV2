@@ -26,8 +26,8 @@ a {
     padding: 60px 0px;
 }
 
-h2{
-    font-size: 40px;
+h2 {
+    font-size: 50px;
     color: var(--cs-primary);
     padding: 10px 0px;
     text-transform: uppercase;
@@ -49,6 +49,7 @@ h2{
     position: absolute;
     width: 100%;
     z-index: 100;
+    position: fixed;
 }
 
 .popnavbar {
@@ -83,6 +84,7 @@ h2{
     min-height: 100vh;
     position: relative;
     z-index: 10;
+
 }
 
 .hero_content {
@@ -103,12 +105,15 @@ h2{
     padding: 10px 0px;
 }
 
+.hero_text {
+    padding-bottom: 28%;
+}
+
 .gif_image {}
 
 
 .about {
-
-    padding-top: 30%;
+    padding-top: 30px;
 }
 
 .about_content {
@@ -120,39 +125,94 @@ h2{
     color: var(--cs-primary);
 }
 
+/* hero ends */
+
+/* team starts */
+.team {
+    background: url(../images/teambg.png);
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-position: center;
+    background-size: contain;
+}
+
+.team h2{
+    
+margin-top: 88px;
+}
+
+.tmember {
+    width: 70%;
+    margin: auto;
+}
+
+.tmember img {}
+
+.tmember h3 {
+    color: #fff;
+    font-size: 25px;
+    padding: 5px 0px;
+}
+
+.tmember p {
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+
+.owl-carousel .owl-item img {
+    border: 2px solid #b8883f;
+    border-radius: 20px;
+    box-shadow: 0 0 9px 0px #b8883fa3;
+}
+
+.tmember_des{
+    text-align: center;
+    padding: 10px;
+}
+
+.tdesright{
+    text-align: right;
+}
+
+.tdesleft{
+    text-align: left;
+}
+
 /* contact starts */
-.contact{
+.contact {
     background-color: #000;
 }
 
-.contact form{}
+.contact form {}
 
-.info{
+.info {
     display: flex;
     justify-content: space-between;
 }
 
-.nameinfo{
+.nameinfo {
     width: 49%;
 }
 
-.contact form label{
+.contact form label {
     color: var(--cs-primary);
     font-weight: 500;
     font-size: 18px;
     margin-bottom: 3px;
 }
 
-.contact form input{
+.contact form input {
     margin-bottom: 15px;
     border-radius: 0;
 }
 
-.contact form textarea{
+.contact form textarea {
     border-radius: 0;
 }
 
-.contact form input[type="submit"]{
+.contact form input[type="submit"] {
     padding: 0;
     padding: 15px 50px;
     margin: 20px 0px;

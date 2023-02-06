@@ -10,6 +10,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
   <title>FV2</title>
@@ -17,7 +19,7 @@
 
 <body>
   <!-- header starts -->
-  <div class="header" id="top">
+  <div class="header fixed-top" id="top">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -30,13 +32,13 @@
                 |
               </li>
               <li>
-                <a href="#">ABOUT</a>
+                <a href="#about">ABOUT</a>
               </li>
               <li>
                 |
               </li>
               <li>
-                <a href="#">CONTACT</a>
+                <a href="#contact">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -50,7 +52,7 @@
   <div class="hero c-60" id="hero">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12 hero_text">
           <div class="hero_content">
             <h1>Final Version 2</h1>
             <h2>motion graphics and post-production</h2>
@@ -97,11 +99,75 @@
   <!-- heroe ends -->
 
   <!-- team starts -->
-  <div class="team c-60">
+  <div class="team c-60" id="team">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <h2>THE TEAM</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="owl-carousel">
+          <div class="tmember">
+            <img src="images/ari.jpg" class="img-fluid" alt="team_member_ari">
+            <div class="tmember_des tdesright">
+              <h3>Ariana Saadat</h3>
+              <p class="t1">In addition to her many technical skills, Ariana is an artist with a keen eye for aesthetics
+                and
+                composition. She is able to create digital environments.</p>
+            </div>
+          </div>
+
+          <div class="tmember">
+            <img src="images/blake.jpg" class="img-fluid" alt="team_member_black">
+            <div class="tmember_des">
+              <h3>Blake Chambers-White</h3>
+              <p>One of Blake's special skills is his ability to create complex and dynamic 3D animations. He is an
+                expert
+                in using motion graphics software like Cinema 4D, Houdini, and Maya.</p>
+            </div>
+          </div>
+
+          <div class="tmember">
+            <img src="images/tito.jpg" class="img-fluid" alt="team_member_tito">
+            <div class="tmember_des tdesleft">
+              <h3>Tito Ferradans</h3>
+              <p class="t2">Tito has a talent for creating visually striking 2D animations, combining vibrant colors,
+                typography, and
+                illustrations to create animations.</p>
+            </div>
+          </div>
+
+          <div class="tmember">
+            <img src="images/ari.jpg" class="img-fluid" alt="team_member_ari">
+            <div class="tmember_des tdesright">
+              <h3>Ariana Saadat</h3>
+              <p class="t1">In addition to her many technical skills, Ariana is an artist with a keen eye for aesthetics
+                and
+                composition. She is able to create digital environments.</p>
+            </div>
+          </div>
+
+          <div class="tmember">
+            <img src="images/blake.jpg" class="img-fluid" alt="team_member_black">
+            <div class="tmember_des">
+              <h3>Blake Chambers-White</h3>
+              <p>One of Blake's special skills is his ability to create complex and dynamic 3D animations. He is an
+                expert
+                in using motion graphics software like Cinema 4D, Houdini, and Maya.</p>
+            </div>
+          </div>
+
+          <div class="tmember">
+            <img src="images/tito.jpg" class="img-fluid" alt="team_member_tito">
+            <div class="tmember_des tdesleft">
+              <h3>Tito Ferradans</h3>
+              <p class="t2">Tito has a talent for creating visually striking 2D animations, combining vibrant colors,
+                typography, and
+                illustrations to create animations.</p>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -138,9 +204,42 @@
 
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+
+  <script src="js/owl.carousel.min.js"></script>
+  <script>
+    // owl carousel
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel(
+        {
+          items: 3,
+          loop: true,
+          autoplay: true,
+          autoplayTimeout: 5000,
+          smartSpeed: 500,
+          nav: false,
+          slideBy: 3,
+          // responsive: {
+          //   0: {
+          //     items: 1,
+          //   },
+          //   425: {
+          //     items: 2,
+          //   },
+          //   767: {
+          //     items: 3,
+          //   },
+          //   768: {
+          //     items: 5,
+          //   }
+          // }
+        }
+      );
+    });
+  </script>
 </body>
 
 </html>

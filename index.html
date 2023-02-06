@@ -72,7 +72,14 @@
             </div>
           </div>
           <div class="row align-items-center">
-            <div class="col-md-5">
+            <div class="col-md-7 order-md-2 order-1 abplayer">
+              <div class="about_player">
+                <video width="100%" height="auto" controls poster="images/video_preview.jpg">
+                  <source src="#" type="video/mp4">
+                </video>
+              </div>
+            </div>
+            <div class="col-md-5 order-md-1 order-2 abcontent">
               <div class="about_content">
                 <p>Final Version 2 is formed by a group of talented and experienced post-production artists, who are
                   determined to change the way people thought about post. We wanted to create a company that was not
@@ -82,19 +89,22 @@
                 <p>
                   The team is made up of a diverse group of individuals, each with their own unique skills and
                   specialties.
-                  They work together seamlessly, using their collective expertise to bring out the best in every project
-                  they take on. They’re quickly gaining a reputation for their attention to detail and their ability to
+                  They work together seamlessly, using their collective expertise to bring out the best in every
+                  project
+                  they take on. They’re quickly gaining a reputation for their attention to detail and their ability
+                  to
                   turn
                   mediocre footage into something truly special.</p>
               </div>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-7 order-md-2 order-1 abplayermain">
               <div class="about_player">
                 <video width="100%" height="auto" controls poster="images/video_preview.jpg">
                   <source src="#" type="video/mp4">
                 </video>
               </div>
             </div>
+
           </div>
         </div>
       </div>
@@ -116,7 +126,8 @@
             <img src="images/ari.jpg" class="img-fluid" alt="team_member_ari">
             <div class="tmember_des tdesright">
               <h3>Ariana Saadat</h3>
-              <p class="t1">In addition to her many technical skills, Ariana is an artist with a keen eye for aesthetics
+              <p class="t1">In addition to her many technical skills, Ariana is an artist with a keen eye for
+                aesthetics
                 and
                 composition. She is able to create digital environments.</p>
             </div>
@@ -146,7 +157,8 @@
             <img src="images/ari.jpg" class="img-fluid" alt="team_member_ari">
             <div class="tmember_des tdesright">
               <h3>Ariana Saadat</h3>
-              <p class="t1">In addition to her many technical skills, Ariana is an artist with a keen eye for aesthetics
+              <p class="t1">In addition to her many technical skills, Ariana is an artist with a keen eye for
+                aesthetics
                 and
                 composition. She is able to create digital environments.</p>
             </div>
@@ -191,15 +203,17 @@
                 <input type="text" name="name" id="name" class="form-control">
               </div>
               <div class="nameinfo">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" class="form-control">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control">
               </div>
             </div>
             <label for="subject">Subject</label>
             <input type="text" name="subject" id="subject" class="form-control">
             <label for="message">Message</label>
             <textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
-            <input type="submit" value="Submit">
+            <div class="submit_button">
+              <input type="submit" value="Submit">
+            </div>
           </form>
         </div>
       </div>
@@ -226,20 +240,20 @@
           smartSpeed: 500,
           nav: false,
           slideBy: 3,
-          // responsive: {
-          //   0: {
-          //     items: 1,
-          //   },
-          //   425: {
-          //     items: 2,
-          //   },
-          //   767: {
-          //     items: 3,
-          //   },
-          //   768: {
-          //     items: 5,
-          //   }
-          // }
+          responsive: {
+            0: {
+              items: 1,
+            },
+            425: {
+              items: 1,
+            },
+            767: {
+              items: 2,
+            },
+            1199:{
+              items: 3,
+            }
+          }
         }
       );
     });

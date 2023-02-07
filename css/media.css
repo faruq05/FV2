@@ -321,6 +321,11 @@
         font-size: 16px;
     }
 
+    iframe {
+        border: 0;
+        height: 250px;
+    }
+    
     .team {
         padding: 30px 15px;
     }

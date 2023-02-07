@@ -69,7 +69,7 @@ h2 {
     font-size: 16px;
 }
 
-.shadowbox{
+.shadowbox {
     position: absolute;
     padding-top: 30px;
     left: 50%;
@@ -79,7 +79,7 @@ h2 {
     height: auto;
 }
 
-.reel:hover + .shadowbox{
+.reel:hover+.shadowbox {
     display: block;
 }
 
@@ -97,7 +97,7 @@ h2 {
 
 }
 
-.gif_image{
+.gif_image {
     background: url(../images/header_overlay.png), url(../images/mainPageforWebsite1080.gif);
     background-position: top center;
     background-size: contain;
@@ -139,15 +139,15 @@ h2 {
     color: var(--cs-primary);
 }
 
-.abplayer{
+.abplayer {
     display: none;
 }
 
-.abcontent{
+.abcontent {
     display: block;
 }
 
-.abplayermain{
+.abplayermain {
     display: block;
 }
 
@@ -193,7 +193,7 @@ h2 {
     box-shadow: 0 0 9px 0px #b8883fa3;
 }
 
-.owl-dots{
+.owl-dots {
     display: none;
 }
 
@@ -251,6 +251,6 @@ h2 {
     border: none;
 }
 
-.submit_button{
+.submit_button {
     text-align: right;
 }

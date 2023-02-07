@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/featherlight.gallery.min.css">
+  <link rel="stylesheet" href="css/featherlight.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/font.css">
   <link rel="stylesheet" href="css/media.css">
@@ -27,10 +29,7 @@
           <div class="popnavbar">
             <ul>
               <li>
-                <a href="#hero" class="reel">REEL</a>
-                <div class="shadowbox">
-                  <img src="images/discordimg.jpg" class="img-fluid" alt="">
-                </div>
+                <a href="#" data-featherlight="images/discordimg.jpg">REEL</a>
               </li>
               <li>
                 |
@@ -75,8 +74,7 @@
           <div class="row align-items-center">
             <div class="col-md-7 order-md-2 order-1 abplayer">
               <div class="about_player">
-                <iframe width="100%" height="400" controls
-                  poster="https://prnt.sc/A75lcxpvEI2h"
+                <iframe width="100%" height="400" controls poster="https://prnt.sc/A75lcxpvEI2h"
                   src="https://www.youtube.com/embed/AxpUugUNA2Q" title="YouTube video player" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowfullscreen></iframe>
@@ -102,8 +100,7 @@
             </div>
             <div class="col-md-7 order-md-2 order-1 abplayermain">
               <div class="about_player">
-                <iframe width="100%" height="400" controls
-                  poster="https://prnt.sc/A75lcxpvEI2h"
+                <iframe width="700px" height="400" controls poster="https://prnt.sc/A75lcxpvEI2h"
                   src="https://www.youtube.com/embed/AxpUugUNA2Q" title="YouTube video player" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowfullscreen></iframe>
@@ -233,6 +230,8 @@
     crossorigin="anonymous"></script>
 
   <script src="js/owl.carousel.min.js"></script>
+  <script src="js/featherlight.gallery.min.js"></script>
+  <script src="js/featherlight.min.js"></script>
   <script>
     // owl carousel
     $(document).ready(function () {
@@ -261,6 +260,11 @@
           }
         }
       );
+    });
+
+    // featherlight
+    $(document).ready(function () {
+      $('.gallery').featherlightGallery();
     });
   </script>
 </body>

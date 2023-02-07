@@ -1,3 +1,46 @@
+@media(max-width:9999px){
+    .gif_image {
+        background-size: 63%;
+    }
+
+    .hero_text {
+        padding-bottom: 270%;
+    }
+}
+@media(max-width:5120px){
+    .gif_image {
+        background-size: 60%;
+    }
+
+    .hero_text {
+        padding-bottom: 123%;
+    }
+}
+
+@media(max-width:2685px){
+    .hero_text {
+        padding-bottom: 125%;
+    }
+
+    .gif_image {
+        background-size: contain;
+    }
+}
+
+@media(max-width:2000px){
+    .hero_text {
+        padding-bottom: 80%;
+    }
+}
+
+
+@media(max-width:1440px) {
+    .hero_text {
+        padding-bottom: 60%;
+    }
+}
+
+
 @media(max-width:1199px) {
     .popnavbar {
         width: 35%;
@@ -32,17 +75,17 @@
         font-size: 18px;
     }
 
-    .abplayer{
+    .abplayer {
         display: block;
         width: 100%;
         padding-bottom: 40px;
     }
 
-    .abplayermain{
+    .abplayermain {
         display: none;
     }
 
-    .abcontent{
+    .abcontent {
         width: 100%;
         margin-top: 20px;
         text-align: center;
@@ -85,6 +128,10 @@
     .submit_button {
         text-align: center;
     }
+
+    .featherlight .featherlight-content {
+        height: auto;
+    }
 }
 
 @media(max-width:991px) {
@@ -113,6 +160,10 @@
         padding-bottom: 60%;
     }
 
+    .featherlight .featherlight-content {
+        height: auto;
+    }
+
     .gif_image {
         background-size: 100%;
     }
@@ -121,17 +172,17 @@
         font-size: 18px;
     }
 
-    .abplayer{
+    .abplayer {
         display: block;
         width: 100%;
         padding-bottom: 40px;
     }
 
-    .abplayermain{
+    .abplayermain {
         display: none;
     }
 
-    .abcontent{
+    .abcontent {
         width: 100%;
         margin-top: 20px;
         text-align: center;
@@ -195,6 +246,10 @@
         font-size: 40px;
     }
 
+    .featherlight .featherlight-content {
+        height: auto;
+    }
+
     .hero_content h2 {
         font-size: 18px;
     }
@@ -222,12 +277,12 @@
         font-size: 16px;
     }
 
-    .abplayer{
-       
+    .abplayer {
+
         display: none;
     }
 
-    .abplayermain{
+    .abplayermain {
         display: block;
     }
 
@@ -325,7 +380,7 @@
         border: 0;
         height: 250px;
     }
-    
+
     .team {
         padding: 30px 15px;
     }
@@ -368,6 +423,10 @@
     .submit_button {
         text-align: center;
     }
+
+    .featherlight .featherlight-content {
+        height: auto;
+    }
 }
 
 @media(max-width:375px) {
@@ -378,5 +437,9 @@
 
     .hero_text {
         padding-bottom: 60%;
+    }
+
+    .featherlight .featherlight-content {
+        height: auto;
     }
 }

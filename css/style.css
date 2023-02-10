@@ -280,24 +280,6 @@ h2 {
 
 
 
-/* .overlay{
-    position: relative;
-}
-
-
-.overlay iframe{
-    display: none;
-}
-
-.ytp-chrome-top .ytp-show-cards-title{
-    display: none!important;
-}
-
-#player{
-    width: 100vw!important;
-    height: 100vh!important;
-} */
-
 /* Lightbox container */
 #video-lightbox {
     display: none;

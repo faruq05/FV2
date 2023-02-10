@@ -12,8 +12,6 @@
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/featherlight.gallery.min.css">
-  <link rel="stylesheet" href="css/featherlight.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/font.css">
   <link rel="stylesheet" href="css/media.css">
@@ -29,7 +27,15 @@
           <div class="popnavbar">
             <ul>
               <li>
-                <a href="#" data-featherlight="images/discordimg.jpg">REEL</a>
+                <!-- Video lightbox trigger button -->
+                <button id="video-button">REEL</button>
+
+                <!-- Video lightbox container -->
+                <div id="video-lightbox">
+                  <span id="video-close">&times;</span>
+                  <iframe id="video-frame" src="" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe>
+                </div>
               </li>
               <li>
                 |
@@ -230,8 +236,7 @@
     crossorigin="anonymous"></script>
 
   <script src="js/owl.carousel.min.js"></script>
-  <script src="js/featherlight.gallery.min.js"></script>
-  <script src="js/featherlight.min.js"></script>
+  <script src="js/videolightbox.js"></script>
   <script>
     // owl carousel
     $(document).ready(function () {
@@ -262,10 +267,6 @@
       );
     });
 
-    // featherlight
-    $(document).ready(function () {
-      $('.gallery').featherlightGallery();
-    });
   </script>
 </body>
 
